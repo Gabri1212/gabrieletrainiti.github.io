@@ -1,0 +1,74 @@
+h1.logo{
+	text-align: center;
+	padding: 10px;
+	widht: 300px;
+	border: 2px solid #0282c8;
+	margin: auto 30% auto 30%;
+	background-color: #ffc3d7;
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-size: 28px;
+}
+
+body{
+	background-color: #36473a;
+}
+
+li.navigation{
+	display: inline;
+	font-size: 21px;
+}
+
+li.invisible{
+	visibility: hidden;
+	display: inline;
+	font-size: 21px;
+}
+
+ul{
+	widht: 350px;
+	text-align: center;
+	padding: 0.5%;
+	border: 2px solid #3b0808;
+	margin: 2.5% 30% auto 30%;
+	border-style: outset;
+}
+
+div#main-wrapper{
+	background-color: white;
+	padding: 0.5%;
+	margin: 2.5% 2.5% 2.5% 2.5%;
+	border: 5px solid #000000;
+}
+
+h1.benvenuto{
+	font-size: 24px;
+	text-align: center;
+	color: #d0d072;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+	
+p{
+	text-transform: none;
+	text-shadow: 2px 2px 7px #111111;
+	color: black;
+	font-size: 20px;
+	text-align: left;
+}
+
+img{
+	display: block;
+	border: 2px solid #11380c;
+}
+
+div#footer{
+	widht: 300px;
+	border: 1px solid #000000;
+	background-color: #000000;
+	margin: auto -0.59% auto -0.59%;
+}
+
+p.footer{
+	color: white;
+	text-align: center;
+}
