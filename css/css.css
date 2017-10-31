@@ -1,74 +1,76 @@
-h1.logo{
-	text-align: center;
-	padding: 10px;
-	widht: 300px;
-	border: 2px solid #0282c8;
-	margin: auto 30% auto 30%;
-	background-color: #ffc3d7;
-	font-family: "Arial Black", Gadget, sans-serif;
-	font-size: 28px;
-}
-
 body{
-	background-color: #36473a;
+	background-color: #99ccff;
 }
 
-li.navigation{
-	display: inline;
-	font-size: 21px;
+div#header ul li {
+	float: left;
+	list-style: none;
+	width: 19%;
+	font-size: 20px;
+	border: 1px solid #000000;
+	background-color: #555555;
 }
 
-li.invisible{
-	visibility: hidden;
-	display: inline;
-	font-size: 21px;
-}
-
-ul{
-	widht: 350px;
-	text-align: center;
+div#header div#logo img{
+	margin: auto 31%;
 	padding: 0.5%;
-	border: 2px solid #3b0808;
-	margin: 2.5% 30% auto 30%;
+	border-color: #88aa66;
 	border-style: outset;
 }
 
-div#main-wrapper{
-	background-color: white;
-	padding: 0.5%;
-	margin: 2.5% 2.5% 2.5% 2.5%;
-	border: 5px solid #000000;
+div#header ul{
+	clear: both;
+	text-align: center;
+	margin: 0.5% 20%;                                                                                                                                                                                                                                                                                                                                                                                                 
+	padding: 10px;
 }
 
-h1.benvenuto{
-	font-size: 24px;
+a{
+	text-decoration: underline;
+	color: #cc6600;
+}
+
+div#header ul li:hover {
+	background-color: #1f1f14;
+}
+
+div#wrapper{
+	margin: 5%; 
+}
+
+div#wrapper img.ad{
+	margin-left: 80%;
+	margin-top: -10%;
+}
+
+div#wrapper div#content{
+	clear: both;
+	background-color: #ffffff;
+}
+
+div#wrapper div#content h1.title{
+	padding: 2%;
+	margin-top: 5%;
 	text-align: center;
-	color: #d0d072;
-	font-weight: bold;
+}
+
+h1.title{
 	text-transform: uppercase;
-}
-	
-p{
-	text-transform: none;
-	text-shadow: 2px 2px 7px #111111;
-	color: black;
-	font-size: 20px;
-	text-align: left;
+	font-family: "Lucida Console", Georgia, Serif;
+	font-weight: bold;
+	font-size: 24px;
+	letter-spacing: 2px;
 }
 
-img{
-	display: inline;
-	border: 2px solid #11380c;
-}
-
-div#footer{
-	widht: 300px;
-	border: 1px solid #000000;
-	background-color: #000000;
-	margin: auto -0.59% auto -0.59%;
-}
-
-p.footer{
-	color: white;
+p.desc{
 	text-align: center;
+	padding: 1%;
+	font-family: "Gill Sans", Georgia, Serif;
+}
+
+.homeimg{
+	height: 240px;
+	width: 360px;
+	margin: 2% auto 2% 2.3%;
+	border: 1px solid #000000;
 }
